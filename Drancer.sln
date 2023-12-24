@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drancer.Web", "Drancer.Web\Drancer.Web.csproj", "{DAA691D4-0AD6-45F8-A401-BF6D761CC29A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA691D4-0AD6-45F8-A401-BF6D761CC29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA691D4-0AD6-45F8-A401-BF6D761CC29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA691D4-0AD6-45F8-A401-BF6D761CC29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA691D4-0AD6-45F8-A401-BF6D761CC29A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23281168-0BF6-4DCF-BC25-9F4C8DEC657D}
+	EndGlobalSection
+EndGlobal
