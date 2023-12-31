@@ -40,7 +40,7 @@ namespace Drancer.Web.Controllers
 
             TempData["success"] = "The villa has been created succesfully";
 
-            return RedirectToAction("Index", "Villa");
+            return RedirectToAction(nameof(Index), "Villa");
         }
 
         public IActionResult Update(int villaId)
@@ -66,7 +66,7 @@ namespace Drancer.Web.Controllers
 
             TempData["success"] = "The villa has been updated succesfully";
 
-            return RedirectToAction("Index", "Villa");
+            return RedirectToAction(nameof(Index), "Villa");
         }
 
         public IActionResult Delete(int villaId)
@@ -94,7 +94,7 @@ namespace Drancer.Web.Controllers
 
             TempData["success"] = "The villa has been deleted succesfully";
 
-            return RedirectToAction("Index", "Villa");
+            return RedirectToAction(nameof(Index), "Villa");
         }
     }
 }
